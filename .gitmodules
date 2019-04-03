@@ -1,0 +1,21 @@
+[submodule "vendor/github.com/mholt/archiver"]
+	path = vendor/github.com/mholt/archiver
+	url = https://github.com/mholt/archiver.git
+[submodule "vendor/github.com/dsnet/compress"]
+	path = vendor/github.com/dsnet/compress
+	url = https://github.com/dsnet/compress.git
+[submodule "vendor/github.com/golang/snappy"]
+	path = vendor/github.com/golang/snappy
+	url = https://github.com/golang/snappy.git
+[submodule "vendor/github.com/nwaples/rardecode"]
+	path = vendor/github.com/nwaples/rardecode
+	url = https://github.com/nwaples/rardecode.git
+[submodule "vendor/github.com/pierrec/lz4"]
+	path = vendor/github.com/pierrec/lz4
+	url = https://github.com/pierrec/lz4.git
+[submodule "vendor/github.com/ulikunitz/xz"]
+	path = vendor/github.com/ulikunitz/xz
+	url = https://github.com/ulikunitz/xz.git
+[submodule "vendor/github.com/xi2/xz"]
+	path = vendor/github.com/xi2/xz
+	url = https://github.com/xi2/xz.git
