@@ -15,11 +15,12 @@ Commands:
 
 Switches:
   --        Stop switch scanning
-  -o[+]	    Overwrite existing files
+  -o        Overwrite existing files
 `
 
 var overwrite = flag.Bool("o", false, "Overwrite existing files")
-var overwritePlus = flag.Bool("o+", false, "Overwrite existing files")
+var overwritePlus = flag.Bool("o+", false, "Overwrite existing files (variant)")
+
 var password = flag.String("p", "", "Set password (incompatible, TODO)")
 
 // These no-op switches are defined solely for compatibility with UnRAR.
