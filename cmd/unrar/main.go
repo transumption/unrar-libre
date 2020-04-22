@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mholt/archiver"
+	"github.com/mholt/archiver/v3"
 )
 
 const usage = `Usage: unrar <command> <archive> [files...]
