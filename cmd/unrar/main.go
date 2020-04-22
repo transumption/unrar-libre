@@ -8,13 +8,13 @@ import (
 	"github.com/mholt/archiver/v3"
 )
 
-const usage = `Usage: unrar <command> <archive> [files...]
+const usage = `Usage: unrar [flags...] <command> <archive>
 
 Commands:
   x         Extract files with full path
 
-Switches:
-  --        Stop switch scanning
+Flags:
+  --        Stop flag scanning
   -o        Overwrite existing files
 `
 
